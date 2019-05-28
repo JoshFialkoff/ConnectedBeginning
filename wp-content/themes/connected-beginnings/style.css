@@ -8,7 +8,7 @@
 	Tags: black, orange, white, one-column, two-columns, fixed-width, custom-menu, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready
  
 	Template: genesis
-	Template Version: 1.0.2
+	Template Version: 1.0.3
  
 	License: GPL-2.0+
 	License URI: http://www.opensource.org/licenses/gpl-license.php
@@ -923,12 +923,23 @@ Site Header
 --------------------------------------------- */
 
 .title-area {
-	float: left;
 	min-height: 120px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
 	max-width: 320px;
 	padding-top: 10px;
 	padding-top: 1rem;
-	width: 55%;
+
+}
+
+@media only screen and (min-width: 768px) {
+	.title-area {
+		float: left;
+		margin-left: 0;
+		margin-bottom: 0;
+		width: 55%;
+	}
 }
 
 .site-title {
@@ -961,17 +972,23 @@ Site Header
 
 .header-image .site-title a {
 	height: 120px;
-	width: 100%;
 }
 
 /* UMass Donahue Institute Logo */
 
 .umdi-logo {
-	float: right;
 	min-height: 120px;
+	margin-left: auto;
+	margin-right: auto;
 	padding-top: 10px;
-	width: 45%;
-	max-width: 320px;
+}
+
+@media only screen and (min-width: 768px) {
+	.umdi-logo {
+		float: right;
+		margin-right: 0;
+		width: 45%;
+	}
 }
 
 .umdi-logo a {
