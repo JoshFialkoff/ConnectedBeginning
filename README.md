@@ -1,2 +1,2 @@
 # ConnectedBeginning
-Connected Beginnings Website
+Connected Beginnings Website designed and developed by ForwardJump, LLC.
