@@ -8,7 +8,7 @@ load_child_theme_textdomain( 'beautiful', apply_filters( 'child_theme_textdomain
 //* Child theme (do not remove)
 define( 'CHILD_THEME_NAME', __( 'Connected Beginnings Theme', 'beautiful' ) );
 define( 'CHILD_THEME_URL', 'http://my.studiopress.com/themes/beautiful/' );
-define( 'CHILD_THEME_VERSION', '1.0.0' );
+define( 'CHILD_THEME_VERSION', '1.0.2' );
 
 //* Add HTML5 markup structure
 add_theme_support( 'html5' );
