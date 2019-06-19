@@ -263,7 +263,7 @@ genesis_register_sidebar( array(
 	'description' => __( 'This is the bottom sidebar widget area.', 'beautiful' ),
 ) );
 
-add_action( 'genesis_header', 'cbti_do_umdi_logo', 12 );
+add_action( 'genesis_site_description', 'cbti_do_umdi_logo', 11 );
 function cbti_do_umdi_logo() {
 	printf( '<div class="umdi-logo"><a hred="%s">%s</a></div>', esc_url( 'http://www.donahue.umassp.edu/' ), esc_html__( 'UMass Donahue Institute' ) );
 }
