@@ -1651,6 +1651,11 @@ Media Queries
 		padding: 4rem 5%;
 	}
 
+	.content {
+		float: none;
+		width: 100%;
+	}
+
 	.responsive-menu {
 		display: none;
 	}
