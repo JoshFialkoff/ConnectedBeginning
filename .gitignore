@@ -1,0 +1,51 @@
+# Ignore WordPress core files
+/wp-admin/
+/wp-includes/
+
+# Ignore WordPress configuration files
+wp-config.php
+
+# Ignore WordPress upload folder
+wp-content/uploads/
+
+# Ignore WordPress themes and plugins except your custom ones
+wp-content/themes/twenty*/
+wp-content/plugins/
+
+# Uncomment the lines below if you have custom themes or plugins that you want to track
+# !wp-content/themes/your-custom-theme/
+# !wp-content/plugins/your-custom-plugin/
+
+# Ignore other potentially sensitive or large files
+.htaccess
+wp-content/debug.log
+sitemap.xml
+sitemap.xml.gz
+*.log
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore npm and Composer dependencies if using them
+node_modules/
+vendor/
+
+# Ignore various backup files
+*.sql
+*.sql.gz
+*.tar
+*.tar.gz
+*.zip
+
+# Ignore misc files
+*.bak
+*.orig
+*.swp
+*.tmp
